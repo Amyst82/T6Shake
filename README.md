@@ -1,18 +1,14 @@
-![changing roll and fov](https://github.com/Amyst82/T6Shake/assets/20230176/b1737e27-3fd6-41f6-a23f-50cb8dfb8727)
 # T6Shake
 *Somehow i ended up with this working title xd*
 
 ## BO2 Camera shake mod made for Dmitry Norton. The mod also supports frozen camera mode with roll and fov interpolation.
 
-
 ## Installation
-
 Add BO2Shake.Red32n to your Redacted plugins folder.
 
 ```bash
   ...\Redacted\Plugins
 ```
-    
 ## Dvars
 
 #### T6Shake has some custom dvars (console commands) that can help you to operate the mod.
@@ -40,6 +36,7 @@ Add BO2Shake.Red32n to your Redacted plugins folder.
 ```
   Enter commands listed above with a parameter in any BO2 Console.
 ```
+
 ### Set camera marker roll
 Simply `scroll down/up your mouse wheel` while `Edit Camera Mode` (where you place markers). Roll value will be automatically attached to a marker that is gonna be added.
 ### Set camera marker fov
@@ -47,8 +44,10 @@ Simply `scroll down/up your mouse wheel` with `Left Control key` pressed while `
 
 ![](https://s12.gifyu.com/images/Srbuh.gif)
 
+
 ### Changing demo timescale step
 You can change your demo timescale step using `c_demoTimescaleStep` dvar. In the GIF below the dvar is set to `0.05`.
+
 
 ![](https://s12.gifyu.com/images/Srbug.gif)
 ### Rotation shake
@@ -63,15 +62,18 @@ Position shake can be applied with `c_shake 1` command and `c_shakePosition` com
 
 ![](https://s10.gifyu.com/images/Srbu1.gif)
 
+
 ### Changing roll step
 Amount the roll will be increased/decreased with your mouse wheel scrolling can be also changing with `c_rollStep` command.
 
 ![](https://s10.gifyu.com/images/SrbQ3.gif)
 
+
 ### Camera marker info
 You can show or hide camera marker info (containing roll and fov) with `c_showMarkerDebug` command.
 
 ![](https://s10.gifyu.com/images/SrbuX.gif)
+
 
 ### Free camera/edit camera mode speed
 Speed of your camera can be changed with `c_freeRoamSpeed` command or you can increase the speed by pressing `+ (plus)` key and decrease speed with `- (minus)` key.
@@ -80,15 +82,17 @@ Speed of your camera can be changed with `c_freeRoamSpeed` command or you can in
 
 ### Edit camera marker fov/roll
 Enter camera marker `repositioning mode` and change Fov/Roll.
+
+
 ### Camera usage
 The new interpolated camera (with shake effect and roll/fov) updates every time you `enter DollyCamera mode`. To get `updated roll and fov values be in your camera` just simple re-enter DollyCamera mode. Shake effect **updates automatically**.
 
-![](https://s10.gifyu.com/images/SrbQp.gif)
+![](https://s10.gifyu.com/images/SrbcH.gif)
 
 ### Frozen Camera usage
 Frozen camera mode can be turned on using `c_frozen 1` command. Simply press the play button with already set markers or just add new ones while you demo is stopped. Frozen camera supports shake and roll/fov interpolation as well.
 
-![](https://s10.gifyu.com/images/SrbQu.gif)
+![](https://s12.gifyu.com/images/SrbcE.gif)
 
 ## Useful links
 
