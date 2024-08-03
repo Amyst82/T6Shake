@@ -2,7 +2,7 @@
 *Somehow i ended up with this working title xd*
 
 ## BO2 Camera shake mod made for Dmitry Norton. The mod also supports frozen camera mode with roll and fov interpolation.
-
+[His edit](https://x.com/Norton_HD/status/1819126498915164404)
 ## Installation
 Add BO2Shake.Red32n to your Redacted plugins folder.
 
